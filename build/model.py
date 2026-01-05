@@ -1,7 +1,7 @@
 import exoplasim as exo
 
 toi700d = exo.Model(workdir="toi700d_run",modelname="TOI-700d",
-                    ncpus=8,resolution="T21",outputtype=".nc")
+                    ncpus=2,resolution="T21",outputtype=".nc")
 
 toi700d.configure(startemp=3480.0, flux=1167.0,                           # Stellar parameters
                   eccentricity=0.,obliquity=0.,fixedorbit=True,           # Orbital parameters
